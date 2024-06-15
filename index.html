@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main id="mainConatiner">
+    <h1 class="header">Weather Forecast</h1>
+    <div class="main-content-box">
+        
+        <div class="weater-details">
+            <span id="mainIc" class="main-ic"><i class='bx bxs-sun'></i></span>
+            <div class="left">
+                <h2 id="latitude">Latitude</h2>
+                <h2 id="longitude">Longitude</h2>
+                <h3><i class='bx bx-cloud-light-rain'></i><span id="rain">rain</span></h3>
+                <h3><i class='bx bx-wind'></i><span id="windSpeed">Wind Speed</span></h3>
+                <h3><i class='bx bx-droplet'></i><span id="precipitation">Precipitation</span></h3>
+                <h3><i class='bx bxs-cloud' ></i><span id="cloud">Cloud</span></h3>
+                
+            </div>
+            <div class="right">
+                <h3 id="time">15/06/2024</h3>
+                <h3 id="tempareture">38&#176;C</h3>
+                <h3 id="isday">Night<i class='bx bxs-moon'></i></h3>
+            </div>
+        </div>
+        <div class="input-div">
+            <input type="text" id="latitudeInput"   placeholder="Enter a value">
+            <input type="text" id="LongitudeInput"  placeholder="Enter a value">
+            <button id="submitBtn">Enter</button>
+        </div>
+    </div>
+    
+    
+    
+    </main>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
